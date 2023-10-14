@@ -2,20 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: #ffffff;
   --background-end-rgb: 255, 255, 255;
-  --green:#41D78F;
+
+  --green:#22c55e;
+  --greenTransparent:#22c55eef;
   --black:#020202;
   --darkBlue: #24335a;
-  --gray: #3E4451;
+  --gray: #e3e7ee;
   --violet: #4143d8;
-  --violethover: #2b2dcc;
+  --violethover: #6835ff;
   --white: #F7FAFF;
   --lightgray: #dcdddf;
+  --blueViolet: #5E27FF;
+  --forShadow:#babcc0;
 }
 
 @media (prefers-color-scheme: dark) {

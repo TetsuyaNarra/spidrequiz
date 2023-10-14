@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from '@/components/header'
 import Link from "next/link";
-import HeroImage from "/assets/HeroNoBg.png";
+import HeroImage from "/assets/HeroNoBg.jpg";
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +18,7 @@ export default function Home () {
         <div className={styles.hero_left}>
           <div className={styles.hero_top}>
             <h1 className={styles.herotitle}>
-              Create dynamic quizzes sets (A-Z) with ease
+              Create sets A & B quizzes with ease
             </h1>
           </div>
           <div className={styles.hero_bottom}>
@@ -34,7 +34,7 @@ export default function Home () {
           </div>
         </div>
         <div className={styles.hero_right}>
-          <Image src={HeroImage} className={styles.HeroImage} />
+          <Image src={HeroImage} className={styles.HeroImage} placeholder="blur" />
         </div>
       </div>
     </main>

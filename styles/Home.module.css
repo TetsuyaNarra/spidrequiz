@@ -5,15 +5,15 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  background-color: var(--white);
+  background-color: var(--blueViolet);
   border-radius: 0 0 30px 30px;
-  box-shadow: 1px 10px 8px #000c2b0d;
+  box-shadow: 1px 10px 8px var(--forShadow);
   margin: 0 0 20px 0;
   overflow: visible !important;
 }
   /* components/Header.module.css */
 .headers {
-  background-color: var(--white);
+  background-color: var(--blueViolet);
   color: var(--white);
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@
   width:50%;
   font-weight: 800;
   font-size: 60px;
-  color: var(--black);
+  color: var(--white);
 }
 .dot {
   color: var(--green);
@@ -78,18 +78,18 @@
   align-items: center;
   font-weight: 500;
   font-family: 'League Spartan', sans-serif;
-  color: var(--darkBlue);
-  font-size: 20px;
+  color: var(--white);
+  font-size: 18px;
   text-decoration: none;
   justify-content: center;
   border-radius: 5px;
   
 }
 .about:hover, .contact:hover, .articles:hover{
-  background-color: #e3e8f4;
+  color: var(--gray);
 }
 .spidrelogo:hover {
-  color: #070707e5 ;
+  color: var(--gray) ;
 }
 /* Body CSS */
 
@@ -99,7 +99,7 @@
   margin: auto;
   display: flex;
   flex-direction: row;
-  padding: 20vh 0 0 0;
+  padding: 50px 0 0 0;
 }
 
 .hero_left {
@@ -111,12 +111,13 @@
 .herotitle {
   width: 100%;
   height: fit-content;
-  font-size: 60px;
-  font-family: 'League Spartan', sans-serif;
-  font-weight: 800;
+  font-size: 50px;
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
   line-height: 60px;
   display: flex;
   align-self: end;
+  color: var(--white);
   margin: 0 0 3vh 0;
 }
 
@@ -125,7 +126,9 @@
   height: 60vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  background-color: #171a1f;
+  border-radius: 10px;
 }
 
 .hero_top {
@@ -147,9 +150,9 @@
   height: 10vh;
   font-size: 20px;
   font-family: 'League Spartan', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 27px;
-  color: var(--gray);
+  color: var(--white);
   display: flex;
   align-items: center;
   margin: 0;
@@ -158,28 +161,29 @@
 .getstarted {
   height: 5vh;
   width: 13vw;
-  background-color: var(--violet);
+  background-color: var(--white);
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   font-family: 'League Spartan', sans-serif;
   align-items: center;
-  border-radius: 25px;
-  color: #fff;
-  margin-top: 2vh;
+  border-radius: 5px;
+  color: var(--darkBlue);
+  margin-top: 5vh;
   text-decoration: none;
   box-sizing: border-box;
   padding: 10px 24px 8px;
 }
 .getstarted:hover {
-  background-color: var(--violethover);
+  background-color: var(--gray);
 }
 .HeroImage {
   height: 50vh;
   width: 50vh;
   box-sizing: border-box;
-  box-shadow: 0px 0px 50px 1px var(--white);
+  border-radius: 2px;
+  background-color: white;
 }
 
 .bodyContainer {
